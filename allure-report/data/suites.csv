@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Apr 04 10:32:09 IST 2024","Thu Apr 04 10:32:32 IST 2024","23376","chromium","loginTestFixture.spec.ts","","","","Login to SF",""

@@ -1,0 +1,13 @@
+Number of pages opened: 2
+URL of the page is : http://leaftaps.com/crmsfa/control/mergeLeadsForm
+Title of the page: Merge Leads | opentaps CRM
+URL of the page is : http://leaftaps.com/crmsfa/control/LookupLeads?id=&parm0=LookupLeads
+Title of the page: Find Leads
+Switching to the page with title: Find Leads
+Number of pages opened: 2
+URL of the page is : http://leaftaps.com/crmsfa/control/mergeLeadsForm
+Title of the page: Merge Leads | opentaps CRM
+URL of the page is : http://leaftaps.com/crmsfa/control/LookupLeads?id=&parm0=LookupLeads
+Title of the page: Find Leads
+Switching to the page with title: Find Leads
+Dialog Message: Are you sure?

@@ -1,0 +1,30 @@
+{
+  "name": "pom-pw-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.30",
+    "allure-playwright": "^2.15.0",
+    "axios": "^1.6.8",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "tslint": "^6.1.3"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts"
+}

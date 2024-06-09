@@ -1,0 +1,47 @@
+Error loading the page: page.goto: net::ERR_ABORTED at https://testleaf-da-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home
+Call log:
+  - navigating to "https://testleaf-da-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home", waiting until "load"
+
+    at C:\Users\Vidyabharathi R\OneDrive - TestLeaf Software Solutions Private Limited\Desktop\pom-pw-ts\utils\playwright.ts:63:33
+    at HomePage.loadApp (C:\Users\Vidyabharathi R\OneDrive - TestLeaf Software Solutions Private Limited\Desktop\pom-pw-ts\utils\playwright.ts:62:24)
+    at HomePage.init (C:\Users\Vidyabharathi R\OneDrive - TestLeaf Software Solutions Private Limited\Desktop\pom-pw-ts\pages\homePage.ts:13:20)
+    at HomePage (C:\Users\Vidyabharathi R\OneDrive - TestLeaf Software Solutions Private Limited\Desktop\pom-pw-ts\pages\homePage.ts:10:14)
+    at Object.sfhome (C:\Users\Vidyabharathi R\OneDrive - TestLeaf Software Solutions Private Limited\Desktop\pom-pw-ts\customFixtures\leadFixtures.ts:25:18) {
+  name: 'Error',
+  [Symbol(step)]: {
+    stepId: 'pw:api@11',
+    location: {
+      file: 'C:\\Users\\Vidyabharathi R\\OneDrive - TestLeaf Software Solutions Private Limited\\Desktop\\pom-pw-ts\\utils\\playwright.ts',
+      line: 63,
+      column: 33,
+      function: undefined
+    },
+    category: 'pw:api',
+    title: 'page.goto(https://testleaf-da-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home)',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://testleaf-da-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home',
+      timeout: 60000,
+      waitUntil: 'load'
+    },
+    wallTime: 1712333410189,
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1712333410321,
+    error: {
+      message: 'Error: page.goto: net::ERR_ABORTED at https://testleaf-da-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home\n' +
+        'Call log:\n' +
+        '  \x1B[2m- navigating to "https://testleaf-da-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home", waiting until "load"\x1B[22m\n',
+      stack: 'Error: page.goto: net::ERR_ABORTED at https://testleaf-da-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home\n' +
+        'Call log:\n' +
+        '  \x1B[2m- navigating to "https://testleaf-da-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home", waiting until "load"\x1B[22m\n' +
+        '\n' +
+        '    at C:\\Users\\Vidyabharathi R\\OneDrive - TestLeaf Software Solutions Private Limited\\Desktop\\pom-pw-ts\\utils\\playwright.ts:63:33\n' +
+        '    at HomePage.loadApp (C:\\Users\\Vidyabharathi R\\OneDrive - TestLeaf Software Solutions Private Limited\\Desktop\\pom-pw-ts\\utils\\playwright.ts:62:24)\n' +
+        '    at HomePage.init (C:\\Users\\Vidyabharathi R\\OneDrive - TestLeaf Software Solutions Private Limited\\Desktop\\pom-pw-ts\\pages\\homePage.ts:13:20)\n' +
+        '    at HomePage (C:\\Users\\Vidyabharathi R\\OneDrive - TestLeaf Software Solutions Private Limited\\Desktop\\pom-pw-ts\\pages\\homePage.ts:10:14)\n' +
+        '    at Object.sfhome (C:\\Users\\Vidyabharathi R\\OneDrive - TestLeaf Software Solutions Private Limited\\Desktop\\pom-pw-ts\\customFixtures\\leadFixtures.ts:25:18)'
+    }
+  }
+}
